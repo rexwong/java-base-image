@@ -1,7 +1,7 @@
 FROM centos:latest
 MAINTAINER 企业级分布式应用服务EDAS研发团队 <edas-dev@list.alibaba-inc.com>
 # 安装打包必备软件
-RUN yum install -y wget unzip telnet lsof net-tools bind-utils
+# RUN yum install -y wget unzip telnet lsof net-tools bind-utils
 # 准备 JDK/Tomcat 系统变量
 ENV JAVA_HOME /usr/java/latest
 ENV PATH ${JAVA_HOME}/bin:$PATH
